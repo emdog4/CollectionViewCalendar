@@ -17,12 +17,13 @@
 		D2C485E116CFCDF100B06A7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C485E016CFCDF100B06A7E /* Default@2x.png */; };
 		D2C485E316CFCDF100B06A7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C485E216CFCDF100B06A7E /* Default-568h@2x.png */; };
 		D2C485E616CFCDF100B06A7E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C485E416CFCDF100B06A7E /* MainStoryboard.storyboard */; };
-		D2C485E916CFCDF100B06A7E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C485E816CFCDF100B06A7E /* FirstViewController.m */; };
+		D2C485E916CFCDF100B06A7E /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C485E816CFCDF100B06A7E /* CalendarViewController.m */; };
 		D2C485EB16CFCDF100B06A7E /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C485EA16CFCDF100B06A7E /* first.png */; };
 		D2C485ED16CFCDF100B06A7E /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C485EC16CFCDF100B06A7E /* first@2x.png */; };
-		D2C485F016CFCDF100B06A7E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C485EF16CFCDF100B06A7E /* SecondViewController.m */; };
 		D2C485F216CFCDF100B06A7E /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C485F116CFCDF100B06A7E /* second.png */; };
 		D2C485F416CFCDF100B06A7E /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C485F316CFCDF100B06A7E /* second@2x.png */; };
+		D2C485FC16CFD2FD00B06A7E /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C485FB16CFD2FD00B06A7E /* CollectionViewCell.m */; };
+		D2C4860516CFF06F00B06A7E /* NSDate+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C4860416CFF06F00B06A7E /* NSDate+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,14 +41,16 @@
 		D2C485E016CFCDF100B06A7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		D2C485E216CFCDF100B06A7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D2C485E516CFCDF100B06A7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		D2C485E716CFCDF100B06A7E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		D2C485E816CFCDF100B06A7E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		D2C485E716CFCDF100B06A7E /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		D2C485E816CFCDF100B06A7E /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		D2C485EA16CFCDF100B06A7E /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		D2C485EC16CFCDF100B06A7E /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		D2C485EE16CFCDF100B06A7E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		D2C485EF16CFCDF100B06A7E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D2C485F116CFCDF100B06A7E /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		D2C485F316CFCDF100B06A7E /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		D2C485FA16CFD2FD00B06A7E /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		D2C485FB16CFD2FD00B06A7E /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		D2C4860316CFF06F00B06A7E /* NSDate+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Helper.h"; sourceTree = "<group>"; };
+		D2C4860416CFF06F00B06A7E /* NSDate+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,15 +100,17 @@
 				D2C485DB16CFCDF100B06A7E /* AppDelegate.h */,
 				D2C485DC16CFCDF100B06A7E /* AppDelegate.m */,
 				D2C485E416CFCDF100B06A7E /* MainStoryboard.storyboard */,
-				D2C485E716CFCDF100B06A7E /* FirstViewController.h */,
-				D2C485E816CFCDF100B06A7E /* FirstViewController.m */,
+				D2C485E716CFCDF100B06A7E /* CalendarViewController.h */,
+				D2C485E816CFCDF100B06A7E /* CalendarViewController.m */,
+				D2C4860316CFF06F00B06A7E /* NSDate+Helper.h */,
+				D2C4860416CFF06F00B06A7E /* NSDate+Helper.m */,
+				D2C485D316CFCDF100B06A7E /* Supporting Files */,
 				D2C485EA16CFCDF100B06A7E /* first.png */,
 				D2C485EC16CFCDF100B06A7E /* first@2x.png */,
-				D2C485EE16CFCDF100B06A7E /* SecondViewController.h */,
-				D2C485EF16CFCDF100B06A7E /* SecondViewController.m */,
 				D2C485F116CFCDF100B06A7E /* second.png */,
 				D2C485F316CFCDF100B06A7E /* second@2x.png */,
-				D2C485D316CFCDF100B06A7E /* Supporting Files */,
+				D2C485FA16CFD2FD00B06A7E /* CollectionViewCell.h */,
+				D2C485FB16CFD2FD00B06A7E /* CollectionViewCell.m */,
 			);
 			path = MealPlanner;
 			sourceTree = "<group>";
@@ -196,8 +201,9 @@
 			files = (
 				D2C485D916CFCDF100B06A7E /* main.m in Sources */,
 				D2C485DD16CFCDF100B06A7E /* AppDelegate.m in Sources */,
-				D2C485E916CFCDF100B06A7E /* FirstViewController.m in Sources */,
-				D2C485F016CFCDF100B06A7E /* SecondViewController.m in Sources */,
+				D2C485E916CFCDF100B06A7E /* CalendarViewController.m in Sources */,
+				D2C485FC16CFD2FD00B06A7E /* CollectionViewCell.m in Sources */,
+				D2C4860516CFF06F00B06A7E /* NSDate+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +328,7 @@
 				D2C485F916CFCDF100B06A7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
